@@ -138,7 +138,7 @@ a {
 .chat-messages .message .meta {
   font-size: 15px;
   font-weight: bold;
-  color: var(--dark-color-b);
+  color: var(--dark-color-a);
   opacity: 0.7;
   margin-bottom: 7px;
 }
@@ -176,6 +176,7 @@ a {
   padding: 5px;
   height: 40px;
   flex: 1;
+  outline: none;
 }
 
 /* Join Page */
@@ -264,6 +265,10 @@ a {
 #Join {
   text-align: center;
   margin-bottom: 5px;
+}
+
+.meta p {
+  color: var(--dark-color-a);
 }
 
 #Join a {

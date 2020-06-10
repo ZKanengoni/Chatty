@@ -21,43 +21,47 @@
       <main class="join-main">
         <form action="chat.html">
           <div class="form-control">
-            <label for="username" style="color: #99aab5;">Username</label>
+            <label for="username">Username</label>
             <input
               type="text"
               name="username"
               id="username"
-              placeholder="Enter username..."
+              placeholder="Enter username"
               required
             />
-          </div>
-          <div class="form-control">
-            <label for="password" style="color: #99aab5;">Password</label>
+
+            <br />
+            <br />
+
+            <label for="username">Password</label>
             <input
               type="password"
               name="password"
               id="password"
-              placeholder="Enter password..."
+              placeholder="Enter password"
               required
             />
           </div>
           <div class="form-control">
-            <label for="room" style="color: #99aab5;">Room</label>
+            <label for="room">Room</label>
             <select name="room" id="room">
-              <option value="Animation">Animation</option>
+              <option value="Development">Development</option>
               <option value="Gaming">Gaming</option>
-              <option value="Coding">Coding</option>
-              <option value="Music">Music</option>
-              <option value="Art">Art</option>
+              <option value="Genral Tech">Genral Tech</option>
+              <option value="Youtube">Youtube</option>
+              <option value="Random Ideas">Random Ideas</option>
             </select>
           </div>
-
-          <div class="form-control" id="Join">
-            <a href="">Create an account</a>
-          </div>
-
-          <button type="submit" class="btn">Join Chat</button>
+          <a href="#" style="color: #eff1f2; margin-left: 34%;" id="signup"
+            >Create an account</a
+          >
+          <button type="submit" class="btn" id="test">
+            Join Room
+          </button>
         </form>
       </main>
     </div>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
