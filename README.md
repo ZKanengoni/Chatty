@@ -1,6 +1,6 @@
 Chatty
 
-This is the documenttaion for my Node.js and socket.io chat app Chatty.
+This is the documentaion for my Node.js and socket.io chat app Chatty.
 
 Steps to use the program:
 
